@@ -1,0 +1,195 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin-ext,vietnamese');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.timeline {}
+.timeline ul {
+    position: relative;
+}
+.timeline ul::before {
+	position: absolute;
+	content: "";
+	background: #00BBC3;
+	height: 100%;
+	width: 3px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.timeline ul li {
+	width: 100%;
+	position: relative;
+	padding: 50px 0 20px 0;
+    overflow: hidden;
+}
+.timeline ul li::before {
+	position: absolute;
+	content: "";
+	background: #00BBC3;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%);
+	margin-top: 5px;
+}
+.timeline ul li:last-child::before {
+    display: none;
+}
+.timeline ul li:last-child {
+    padding: 20px 0;
+}
+.timeline ul li:nth-child(odd) .timeline-text {
+    float: left;
+}
+.timeline ul li h3 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #00BBC3;
+	padding: 8px 20px;
+	top: 0;
+	margin: 0;
+}
+.timeline .timeline-text {
+	width: 300px;
+	background: #EDEDEC;
+	padding: 25px;
+	color: #BFBFBE;
+	float: right;
+    position: relative;
+    transition: .3s;
+}
+.timeline .timeline-text h2 {
+	font-size: 28px;
+    margin-bottom: 20px;
+}
+.timeline .timeline-text::before {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #EDEDEC;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -20px;
+    transition: .3s;
+}
+.timeline ul li:nth-child(even) .timeline-text:before {
+    left: -20px;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #EDEDEC transparent transparent;
+    transition: .3s;
+}
+.timeline ul li:hover .timeline-text {
+    background: #00BBC3;
+    color: #fff;
+}
+.timeline ul li:hover .timeline-text::before {
+    border-color: transparent transparent transparent #00BBC3;
+}
+.timeline ul li:hover:nth-child(even) .timeline-text::before {
+    border-color: transparent #00BBC3 transparent transparent;
+}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
+. {}
